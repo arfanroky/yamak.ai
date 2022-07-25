@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  .heading{
+    color: lightcoral;
+    margin-top: 12px;
+    text-transform: lowercase;
+
+    &:hover{
+      background-color: red;
+      color: white;
+      transition: background-color 400ms ease-in-out;
+    }
+  }
+}
+
