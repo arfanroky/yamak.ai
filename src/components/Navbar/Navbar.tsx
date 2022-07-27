@@ -47,7 +47,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <ul className="navMenu navSmMenu  fixed-bottom">
+        <ul className="navMenu navSmMenu  ">
           <li className="navItem fs-6 
            me-2">Home</li>
           <li className="navItem fs-6 

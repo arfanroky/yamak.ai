@@ -2,7 +2,7 @@ import './Home.scss';
 
 const Home = () => {
   return (
-    <main className="mainContainer ">
+    <main className="mainContainer">
       <div className="container mx-auto">
         <div className="d-flex justify-content-between align-items-center mb-3">
           <h1 className="leftHeading fs-md-1 fs-6">Home/Writing Assistant</h1>
