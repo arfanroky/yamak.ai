@@ -3,12 +3,13 @@
 }
 
 .navContainer {
-  height: 94px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1rem;
   box-shadow: 0px 6px 15px #00000029;
+  position: relative;
+
+  .navMdContainer{
+    height: 94px;
+    padding: 0 1rem;
+  }
 
   .logo {
     font-size: 2rem;
@@ -19,17 +20,19 @@
     display: flex;
     list-style: none;
 
-    .navItem {
+    .navItem{
       font-size: 20px;
-      margin-right: 47px;
+      margin: 0 20px;
     }
+  
     .badge {
       position: relative;
+      color: black;
 
       .notification {
         position: absolute;
-        left: 10px;
-        top: -8px;
+        left: 20px;
+        top: -2px;
         font-size: 10px;
         background-color: #5cacee;
         padding: 2px 4px;
@@ -42,4 +45,52 @@
       border-radius: 50%;
     }
   }
+
+
+  .navSmContainer{
+
+    .navHeader{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: .5rem;
+
+      .userActivity{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 20px;
+
+        .notifyIcon{
+          position: relative;
+
+          .notification {
+            position: absolute;
+            left: 10px;
+            top: -8px;
+            font-size: 10px;
+            background-color: #5cacee;
+            padding: 2px 4px;
+            border-radius: 50%;
+          }
+        }
+
+
+        .userIcon{
+          background-color: #0188f3;
+          padding: 6px 12px;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .navSmMenu{
+      box-shadow: 0px 6px 15px #00000029;
+      padding: .5rem;
+      z-index: 10000;
+      background-color: white;
+    }
+  }
+
+
 }

@@ -13,8 +13,6 @@
     padding: 3rem 0;
 
     .left{
-        
-
         .leftHeading{
             color:#414756;
         }
@@ -23,7 +21,6 @@
         }
 
         .leftWritingMenu{
-            width: 75%;
             display: flex;
             justify-content: space-between;
             padding: .5rem 1rem;
@@ -82,7 +79,9 @@
     }
 
     .right{
-
+        border-right: 4px solid #414756;
+                padding: 0 1rem;
+        border-left: 1px solid #707070;
         .rightBtnGroup{
             text-align: end;
         }
